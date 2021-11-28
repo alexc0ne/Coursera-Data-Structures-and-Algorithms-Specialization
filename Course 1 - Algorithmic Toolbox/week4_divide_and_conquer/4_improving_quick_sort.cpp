@@ -13,9 +13,7 @@ size_t get_random_in_range(size_t begin, size_t end)
     // easier way: rand() % n : [0, n)
     // size_t r = rand() % (end - begin) + begin;
 
-    using namespace std::chrono;
-
-    auto seed = system_clock::now().time_since_epoch().count();
+    auto seed = chrono::system_clock::now().time_since_epoch().count();
     default_random_engine e(seed);
     uniform_int_distribution<size_t> u(begin, end - 1);
 
