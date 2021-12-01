@@ -6,6 +6,21 @@ using vI = vector<Int>;
 using Matrix = vector<vI>;
 
 
+/*
+ * Attention!
+ * Much easier to solve (even without filling the base) if we create matrix of size m+1, n+1 like this:
+ *
+ * . x 3 4 8 2
+ * x 0 0 0 0 0
+ * 4 0 . <-- starting point
+ * 3 0
+ * 1 0
+ * 2 0
+ * 
+ */
+
+
+
 vI ReadVector()
 {
     Int n;
