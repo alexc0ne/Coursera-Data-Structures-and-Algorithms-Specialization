@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 using Int = int32_t;
 using vI = vector<Int>;
