@@ -1,3 +1,7 @@
+/*
+ * this algorithm was presented by the lecturer
+ */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -6,7 +10,7 @@ using Int = int64_t;
 using vI = vector<Int>;
 
 
-// this algorithm was implemented by the lecturer
+
 Int CarFueling(Int distance, Int numOfGasStations, const vI & path)
 {
     Int numRefills = 0;
